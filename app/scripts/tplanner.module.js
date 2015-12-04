@@ -1,9 +1,13 @@
 /**
  * @ngdoc overview
- * @name tournamentPlannerApp
+ * @name tPlanner
  * @description
- * # tournamentPlannerApp
+ * # tPlanner
  *
  * Main module of the application.
  */
-angular.module('tPlanner', []);
+angular.module('tPlanner', [
+  'tPlanner.schedule',
+  'tPlanner.team',
+  'tPlanner.tournament'
+]);
