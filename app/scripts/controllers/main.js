@@ -10,7 +10,7 @@
 angular.module('tournamentPlannerApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
-      'HTML5 Boilerplate',
+      'HTML5 Boilerplate2',
       'AngularJS',
       'Karma'
     ];
