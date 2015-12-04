@@ -22,7 +22,7 @@
 
 <!-- Add your site or application content here -->
 <div class="container">
-
+  <welcome-banner></welcome-banner>
 </div>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -46,15 +46,15 @@
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/tplanner.module.js"></script>
+<script src="scripts/welcome/welcome.module.js"></script>
+<script src="scripts/welcome/welcomeBanner.directive.js"></script>
+<script src="scripts/welcome/WelcomeBannerController.js"></script>
 <script src="scripts/schedule/schedule.module.js"></script>
 <script src="scripts/schedule/ScheduleController.js"></script>
 <script src="scripts/schedule/ScheduleService.js"></script>
 <script src="scripts/team/team.module.js"></script>
 <script src="scripts/team/player/player.module.js"></script>
-<script src="scripts/team/player/playerWidget.directive.js"></script>
 <script src="scripts/team/player/player.filter.js"></script>
-<script src="scripts/team/player/PlayerWidgetController.js"></script>
-<script src="scripts/tournament/tournament.module.js"></script>
 <!-- endbuild -->
 </body>
 </html>

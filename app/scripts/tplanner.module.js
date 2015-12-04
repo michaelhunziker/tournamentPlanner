@@ -7,7 +7,7 @@
  * Main module of the application.
  */
 angular.module('tPlanner', [
+  'tPlanner.welcome',
   'tPlanner.schedule',
-  'tPlanner.team',
-  'tPlanner.tournament'
+  'tPlanner.team'
 ]);
