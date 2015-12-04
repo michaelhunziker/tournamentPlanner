@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc overview
  * @name tournamentPlannerApp
@@ -8,5 +6,4 @@
  *
  * Main module of the application.
  */
-angular
-  .module('tournamentPlannerApp', []);
+angular.module('tPlanner', []);
